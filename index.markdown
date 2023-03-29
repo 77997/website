@@ -5,12 +5,9 @@
 layout: home
 ---
 
-# Welcome
-Bear's Consulting Company provides professional IT consulting services,
-including software development, cloud architect designing and management consulting.
+# Welcome to Bear's Consulting Company
+We provide professional IT consulting services to help you reach your business goals. Our services include software development, cloud architect designing, and management consulting.
 
-Find more at [What we do](/service).
+To learn more about what we do, please visit our [Services](/service) page.
 
-Looking for contractors for your project? [Contact us now](/contact-us).
-
-
+If you're looking for contractors for your project, don't hesitate to [contact us](/contact-us) today!

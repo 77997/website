@@ -1,0 +1,63 @@
+baseURL = 'https://77997.ca'
+languageCode = 'en-ca'
+title = "Bear's Consulting Company"
+theme = "github-style"
+
+# Site parameters for user profile
+[params]
+  author = "Bear's Consulting Company"
+  description = "Technology consulting across travel, networking, and embedded systems development"
+  location = "St. John's, Newfoundland"
+  avatar = "/images/avatar.png"
+  headerIcon = "/images/avatar.png"
+  favicon = "/images/avatar.png"
+  email = "sales@77997.ca"
+  phone = "+1 (437) 703-4201"
+  
+  # Custom organisation links
+  [[params.links]]
+    title = "AS30265 Internet Services"
+    href = "https://as30265.net"
+    icon = "/images/terminal-icon.svg"
+  
+  [[params.links]]
+    title = "FlyTogether Travel Platform"
+    href = "https://flytogether.app"
+    icon = "/images/flytogether.png"
+
+# Navigation menu
+[[menu.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+  [menu.main.params]
+    icon = "book"
+
+[[menu.main]]
+  name = "Travel"
+  pageRef = "/travel"
+  weight = 10
+  [menu.main.params]
+    icon = "globe"
+
+[[menu.main]]
+  name = "Consulting"
+  pageRef = "/development"
+  weight = 15
+  [menu.main.params]
+    icon = "repo"
+
+[[menu.main]]
+  name = "Networking"
+  pageRef = "/networking"
+  weight = 17
+  [menu.main.params]
+    icon = "organization"
+
+[[menu.main]]
+  name = "Posts"
+  pageRef = "/post"
+  weight = 20
+  [menu.main.params]
+    icon = "book"
+    showCounter = true

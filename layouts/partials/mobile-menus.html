@@ -1,0 +1,16 @@
+{{ $section := where .Site.RegularPages "Section" "in" (slice "post") }}
+{{ $section_count := len $section }}
+<div class="UnderlineNav user-profile-nav d-block d-md-none position-sticky top-0 pl-3 ml-n3 mr-n3 pr-3 bg-white"
+  style="z-index:3;">
+  <nav class="UnderlineNav-body">
+    {{ range .Site.Menus.main }}
+    <a class="UnderlineNav-item {{ if eq $.RelPermalink .URL }} selected {{ end }}" href="{{ .URL | absURL }}">
+      {{ partial "menu-icon.html" .Params }}
+      {{ .Name }}
+      {{ if .Params.showCounter }}
+        <span class="Counter">{{ $section_count}}</span>
+      {{ end }}
+    </a>
+    {{ end }}
+  </nav>
+</div> 

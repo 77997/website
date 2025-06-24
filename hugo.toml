@@ -10,7 +10,7 @@ theme = "github-style"
   location = "St. John's, Newfoundland"
   avatar = "/images/avatar.png"
   headerIcon = "/images/avatar.png"
-  favicon = "/images/avatar.png"
+  favicon = "/images/apple-touch-icon.png"
   email = "sales@77997.ca"
   phone = "+1 (437) 703-4201"
   

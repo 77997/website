@@ -5,6 +5,23 @@
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="{{ .Permalink }}" />
 
+<!-- Web App Manifest -->
+<link rel="manifest" href="{{ "images/site.webmanifest" | absURL }}" />
+
+<!-- Apple Touch Icons -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "images/apple-touch-icon.png" | absURL }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon-32x32.png" | absURL }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "images/favicon-16x16.png" | absURL }}">
+
+<!-- PWA Meta Tags -->
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="{{ .Site.Title }}">
+<meta name="application-name" content="{{ .Site.Title }}">
+<meta name="msapplication-TileColor" content="#1e2327">
+<meta name="msapplication-config" content="{{ "images/browserconfig.xml" | absURL }}">
+
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="{{ if .IsHome }}{{ else }}{{ .Title }} - {{ end }}{{ .Site.Title }}" />
